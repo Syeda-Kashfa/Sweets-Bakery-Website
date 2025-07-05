@@ -1,0 +1,53 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+    padding-left: 60px;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+    padding-top: 60px;
+    padding-right: 80px;
+    
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li a:hover{
+    text-decoration: underline;
+    color: rgb(211, 33, 63);
+}
+.social ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+    padding-top: 70px;
+    padding-right: 80px;
+}
+
+.social li a img{
+    width: 18px;
+    height: 18px;
+}
+nav button{
+    width: 160px;
+    height: 40px;
+    margin-top: 90px;
+    border-radius: 30px;
+    margin-right: 80px;
+    border-color: rgb(17, 205, 205);
+    background-color: rgb(17, 205, 205);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
