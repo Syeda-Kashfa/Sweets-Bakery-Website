@@ -53,10 +53,7 @@ nav button{
     font-size: 16px;
     font-weight: bold;
 }
-
- .slider-container{
-    
-} 
+ 
 .slides{
     position: relative;
     display: inline-block;
@@ -115,6 +112,8 @@ nav button{
      width: 250px;
     height: 200px;
     border-radius: 30px;
+    border: 2px solid ivory;
+   box-shadow: 5px 5px 10px rgb(255, 0, 174);
 }
 .template h1{
     font-size:54px;
@@ -164,11 +163,11 @@ nav button{
     margin-top: 30px;
     margin-left: 350px;
     border-radius: 50px;
-    border-color: 2px solid white;
     background-color:rgb(69, 220, 220);
     color: white;
     font-size: 22px;
     font-weight: bold;
+    border: 2px solid white;
 
 }
 .text button:hover{
@@ -239,5 +238,167 @@ nav button{
 .box2{
     width: 100%;
     height: 800px;
-    background-color: rgb(246, 132, 189) ;
+    background-color: lightpink ;
+
 }
+
+.reveiw{
+     display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 60%;
+    justify-self: center;
+    row-gap: 80px;
+    padding-top: 50px;
+    padding-left: 150px;
+}
+.revpics img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.revpics p{
+    color: rgba(255, 255, 255, 0.885);
+    font-size: 18px;
+}
+.revpics .p1{
+    font-size: 16px;
+
+}
+.text2 h1{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 54px;
+}
+.box3{
+    width: 100%;
+    height: 1200px;
+   
+    
+    
+}
+.box3 h1{
+    color:  rgba(5, 2, 2, 0.685);
+    font-size: 54px;
+    padding-top: 40px;
+    padding-left: 150px;
+}
+.price{
+     display: flex;
+     
+}
+table tr td{
+    justify-content: space-between;
+    max-width: 50% ;
+}
+.price tr th{
+    color:  rgba(5, 2, 2, 0.685);
+    font-size: 25px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+
+}
+.price tr td{
+    color:  rgba(5, 2, 2, 0.685);
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-left: 150px;
+}
+.Qbox{
+    width: 280px;
+    height: 260px;
+    background-color: rgba(207, 206, 206, 0.262);
+    margin-left: 100px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.Qbox h4{
+    text-align: center;
+    color:  rgba(5, 2, 2, 0.685);
+    font-size: 22px;
+}.Qbox p{
+    text-align: center;
+    color: rgb(69, 220, 220);
+    font-size: 18px;
+}
+.footer{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+
+}
+.footer img{
+     width: 100%;
+    height: 600px;
+    display: block;
+    filter: brightness(20%);
+     border-radius: 20px;
+    
+}
+.footer-content{
+     position: absolute;
+    transform: translate(-50%,-50%); 
+    color: white;
+     top: 30%;
+    left: 50%;
+}
+.footer-content h1{
+    font-size: 54px;
+    font-weight: bold;
+} 
+.footer-content a input{
+    background-color: transparent;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border-color: whitesmoke;
+}
+.footer-content a button{
+     width: 170px;
+    height: 50px;
+    border-radius: 50px;
+    background-color:rgb(69, 220, 220);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid white;
+    margin-left: 30px;
+
+}
+.icoN{
+     position: relative;
+    display: inline-block;
+    width: 100%;
+    
+}
+.footer-icon {
+    position: absolute;
+    transform: translate(-50%,-150%); 
+    color: white;
+    justify-self: center;
+    padding-bottom: 50px;
+    margin-left: 140px;
+}
+.footer-icon a img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+.footer-icon a img:hover{
+    filter: brightness(30%);
+    border: 2px solid white
+}
+.footer-icon h2{
+    font-size: 18px;
+    padding-left: 40px;
+    
+
+}
+
+
+
+    
+
+
